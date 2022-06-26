@@ -5,8 +5,6 @@
 * Large Convolutional Network models have recently demonstrated impressive classification performance on the ImageNet benchmark. However there is no clear understanding of why they perform so well, or how they might be improved. In this repository, visualization technique that gives insight into the function of intermediate feature layers and the operation of the classifier is given. We also perform an ablation study to discover the performance contribution from different model layers. This enables us to find model architectures that outperform on the ImageNet classification benchmark.
 * Project status: working
 
-Zeiler, Matthew D., and Rob Fergus. "Visualizing and understanding convolutional networks." European conference on computer vision. Springer, Cham, 2014.
-
 
 ## Usage
 
@@ -19,27 +17,25 @@ Zeiler, Matthew D., and Rob Fergus. "Visualizing and understanding convolutional
 ![image](https://user-images.githubusercontent.com/56218470/175812185-08f9e51e-9cc0-4852-b15c-ee3b87a30f02.png)
 
 
-## Code
-
-[![Build Status](https://qa.nuxeo.org/jenkins/buildStatus/icon?job=/nuxeo/addons_nuxeo-sample-project-master)](https://qa.nuxeo.org/jenkins/job/nuxeo/job/addons_nuxeo-sample-project-master/) 
-
 
 ### Content
 
-Description, sub-modules organization...
+explored large convolutional neural network models, trained for image classification, in a number ways.
+First, the paper [1] presented a novel way to visualize the activity within the model. This reveals the features to be far from random, uninterpretable patterns. Rather, they show many intuitively desirable properties such as compositionality, increasing invariance and class discrimination as we ascend the layers. they also showed how these visualization can be used to debug problems with the model to obtain better results.
 
 ### Requirements
 
-See [CORG/Compiling Nuxeo from sources](http://doc.nuxeo.com/x/xION)
-
-Sample: <https://github.com/nuxeo/nuxeo/blob/master/nuxeo-distribution/README.md>
-
-### Limitations
-
-Sample: <https://github.com/nuxeo-archives/nuxeo-features/tree/master/nuxeo-elasticsearch>
-
-### Build
-
-    mvn clean install
+Pytorch
+Opencv-python
+Jupyter Notebook
 
 
+
+### Run Experiments
+
+    gh repo clone unboxdisease/Visualizing_CNN-s
+    cd Visualizing_CNN-s/Experiments
+    jupyter notebook
+
+### Reference
+[1] Zeiler, Matthew D., and Rob Fergus. "Visualizing and understanding convolutional networks." European conference on computer vision. Springer, Cham, 2014.
