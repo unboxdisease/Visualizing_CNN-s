@@ -11,12 +11,18 @@ Zeiler, Matthew D., and Rob Fergus. "Visualizing and understanding convolutional
 ## Usage
 
 ### Screenshots
+![image](https://user-images.githubusercontent.com/56218470/175812091-df973a3a-e82c-473b-9ec4-a800bfc4bf5d.png)  
 
+![image](https://user-images.githubusercontent.com/56218470/175812223-a0d02ecf-170d-4981-9fe7-d3329bd0b33a.png)
+
+
+![image](https://user-images.githubusercontent.com/56218470/175812185-08f9e51e-9cc0-4852-b15c-ee3b87a30f02.png)
 
 
 ## Code
 
-[![Build Status](https://qa.nuxeo.org/jenkins/buildStatus/icon?job=/nuxeo/addons_nuxeo-sample-project-master)](https://qa.nuxeo.org/jenkins/job/nuxeo/job/addons_nuxeo-sample-project-master/)
+[![Build Status](https://qa.nuxeo.org/jenkins/buildStatus/icon?job=/nuxeo/addons_nuxeo-sample-project-master)](https://qa.nuxeo.org/jenkins/job/nuxeo/job/addons_nuxeo-sample-project-master/) 
+
 
 ### Content
 
